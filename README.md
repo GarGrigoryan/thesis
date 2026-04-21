@@ -1,5 +1,3 @@
 # Thesis Diploma 
 
 ## Description
-
-ooo
