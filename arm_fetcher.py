@@ -3,7 +3,6 @@ import csv
 import os
 from dotenv import load_dotenv
 
-# load API key
 load_dotenv()
 API_KEY = os.getenv("API_KEY")
 
@@ -49,7 +48,6 @@ with open(input_file, encoding="utf-8") as f:
 
         rows.append([city, lon, lat, wind_speed, wind_dir])
 
-# write CSV with ; separator
 with open(output_file, "w", newline="", encoding="utf-8") as f:
     writer = csv.writer(f, delimiter=";")
 
